@@ -50,10 +50,11 @@ const fetchData = async (query) => {
 function handleData(result, query) {
     // Clear the existing content
     document.querySelector(".dynamic_data").innerHTML = '';
+    document.querySelector(".resultsFor").innerHTML = '';
 
     // Add a heading with the search query
-    document.querySelector(".dynamic_data").innerHTML += 
-	`<h2>Results for "${query}"</h2><br><br>`;
+    document.querySelector(".resultsFor").innerHTML += 
+	`<h2>Results for "${query}"</h2>`;
 
     // Iterate through the results and create the cards
     result.forEach((game) => {
