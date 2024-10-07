@@ -1,9 +1,4 @@
-/* General resets */
-html, body {
-	height: 100%;
-	margin: 0;
-}
-/* Input and button */
+
 #searchInput {
     width: 100%;
     max-width: 400px;
@@ -36,8 +31,9 @@ img{
     width: 75%;
     height: 150px;
 }
-h2{
+header h2{
     text-align: center;
+    margin: 30px;
 }
 .alert {
     max-width: 500px;
